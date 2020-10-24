@@ -1,29 +1,29 @@
 # Common techniques used in human-operated ransomware attacks 
 
-| Tactic               | Technique                                                                                                    |
-|----------------------|--------------------------------------------------------------------------------------------------------------|
-| Initial Access       | Exploit Public-Facing Application (T1190)                                                                    |
-| Initial Access       | External Remote Services (T1133)                                                                             |
-| Initial Access       | Phishing: Spearphishing Attachment (T1566.001)                                                               |
-| Initial Access       | Phishing: Spearphishing Link (T1566.002)                                                                     |
-| Execution            | Inter-Process Communication (T1559)                                                                          |
-| Execution            | Process Injection (T1055)                                                                                    |
-| Execution            | Command and Scripting Interpreter (T1059)                                                                    |
-| Execution            | User Execution: Malicious File (T1204.002)                                                                   |
-| Execution            | User Execution: Malicious Link (T1204.001)                                                                   |
-| Persistence          | Create or Modify System Process: Windows Service (T1543.003)                                                 |
-| Persistence          | Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder (T1547.001)                            |
-| Privilege Escalation | Abuse Elevation Control Mechanism: Bypass User Access Control (T1548.002)                                    |
-| Privilege Escalation | Exploitation for Privilege Escalation (T1068)                                                                |
-| Privilege Escalation | Access Token Manipulation: SID-History Injection (T1134.005)                                                 |
-| Defence Evasion      | Obfuscated Files or Information (T1027)                                                                      |
-| Credential Access    | Steal or Forge Kerberos Tickets: Kerberoasting (T1558.003)                                                   |
-| Credential Access    | Unsecured Credentials: Group Policy Preferences (T1552.006)                                                  |
-| Credential Access    | Unsecured Credentials: Credentials In Files (T1552.001)                                                      |
-| Credential Access    | OS Credential Dumping (T1003)                                                                                |
-| Discovery            | Account Discovery: Domain Account (T1087.002)                                                                |
-| Lateral Movement     | Exploitation of Remote Services (T1210)                                                                      |
-| Lateral Movement     | Remote Services: SMB/Windows Admin Shares (T1021.002)                                                        |
-| Lateral Movement     | Remote Services: Remote Desktop Protocol (T1021.001)                                                         |
-| Exfiltration         | Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol (T1048.003) |
-| Impact               | Data Encrypted for Impact (T1486)                                                                            |
+| Tactic               | ID        | Technique                                                                                         |
+|----------------------|-----------|---------------------------------------------------------------------------------------------------|
+| Initial Access       | T1190     | Exploit Public-Facing Application                                                                 |
+| Initial Access       | T1133     | External Remote Services                                                                          |
+| Initial Access       | T1566.001 | Phishing: Spearphishing Attachment                                                                |
+| Initial Access       | T1566.002 | Phishing: Spearphishing Link                                                                      |
+| Execution            | T1559     | Inter-Process Communication                                                                       |
+| Execution            | T1055     | Process Injection                                                                                 |
+| Execution            | T1059     | Command and Scripting Interpreter                                                                 |
+| Execution            | T1204.002 | User Execution: Malicious File                                                                    |
+| Execution            | T1204.001 | User Execution: Malicious Link                                                                    |
+| Persistence          | T1543.003 | Create or Modify System Process: Windows Service                                                  |
+| Persistence          | T1547.001 | Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder                             |
+| Privilege Escalation | T1548.002 | Abuse Elevation Control Mechanism: Bypass User Access Control                                     |
+| Privilege Escalation | T1068     | Exploitation for Privilege Escalation                                                             |
+| Privilege Escalation | T1134.005 | Access Token Manipulation: SID-History Injection                                                  |
+| Defence Evasion      | T1027     | Obfuscated Files or Information                                                                   |
+| Credential Access    | T1558.003 | Steal or Forge Kerberos Tickets: Kerberoasting                                                    |
+| Credential Access    | T1552.006 | Unsecured Credentials: Group Policy Preferences                                                   |
+| Credential Access    | T1552.001 | Unsecured Credentials: Credentials In Files                                                       |
+| Credential Access    | T1003     | OS Credential Dumping                                                                             |
+| Discovery            | T1087.002 | Account Discovery: Domain Account                                                                 |
+| Lateral Movement     | T1210     | Exploitation of Remote Services                                                                   |
+| Lateral Movement     | T1021.002 | Remote Services: SMB/Windows Admin Shares                                                         |
+| Lateral Movement     | T1021.001 | Remote Services: Remote Desktop Protocol                                                          |
+| Exfiltration         | T1048.003 | Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol  |
+| Impact               | T1486     | Data Encrypted for Impact                                                                         |
